@@ -1,6 +1,6 @@
 import math
 
-def isprime(x):
+def isprime(n):
 	if n!= int(n) or n<2:
 		return False
 	for i in range(2, int(math.sqrt(n) + 1)):
